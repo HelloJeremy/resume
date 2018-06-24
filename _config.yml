@@ -1,1 +1,13 @@
 theme: jekyll-theme-cayman
+
+# Site settings
+# 评论系统
+# Gitalk
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID: 335eda2131efcb8c3cd3                            #生成的clientID
+  clientSecret: 7cf6a6b5dd9ab87fc042d9db194fbe257ab3ad97    #生成的clientSecret
+  repo: HelloJeremy.github.io    #仓库名称
+  owner: HelloJeremy    #github用户名
+  admin: HelloJeremy
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
