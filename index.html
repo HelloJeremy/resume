@@ -482,9 +482,8 @@
                     })
                     gitment.render('container')
                     </script>-->
-                    <!--Gitalk评论start  -->
 
-                    {% if site.gitalk.enable %}
+                    <!--Gitalk评论start  -->
                     <!-- 引入Gitalk评论插件  -->
                     <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
                     <script src="/js/md5.min.js"></script>
@@ -497,13 +496,12 @@
                             repo: '{{site.gitalk.repo}}',
                             owner: '{{site.gitalk.owner}}',
                             admin: ['{{site.gitalk.admin}}'],
-                            distractionFreeMode: {{site.gitalk.distractionFreeMode}},
+                            distractionFreeMode: '{{site.gitalk.distractionFreeMode}}',
                         //id: window.location.pathname,
                         id: md5('{{ page.title }}'),
                         });
                         gitalk.render('gitalk-container');
                     </script>
-                    {% endif %}
                     <!-- Gitalk end -->
                 </div>
             </div>
