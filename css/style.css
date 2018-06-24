@@ -989,3 +989,7 @@ a:hover {
     -o-border-radius: 50%;
     border-radius: 50%;
 }
+
+#gitalk-container {
+    color: #333;
+}
