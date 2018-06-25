@@ -74,7 +74,7 @@ h2 {
     font-weight: 400;
     text-transform: uppercase;
     margin: 0px;
-    border-bottom: #ef7674 6px solid;
+    border-bottom: #428bca 6px solid;
     padding-bottom: 9px;
     display: inline-block;
 }
@@ -172,7 +172,7 @@ header {
     line-height: 40px;
     color: #fff;
     font-size: 14px;
-    background-color: #EF7674;
+    background-color: #428bca;
     text-transform: uppercase;
     padding: 0 29px;
     margin: 0 10px;
@@ -322,28 +322,28 @@ header {
 
 .navbar.navbar-inverse.navbar-static-top a:hover {
     background: #ffffff;
-    color: #ef7674;
+    color: #428bca;
 }
 
 .navbar-inverse .navbar-nav>.active>a,
 .navbar-inverse .navbar-nav>.active>a:focus {
     background: #ffffff;
     /*color:#c3c8d6;*/
-    color: #ef7674;
+    color: #428bca;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
     background: #ffffff;
     /*color:#c3c8d6;*/
-    color: #ef7674;
+    color: #428bca;
 }
 
 .navbar-inverse .navbar-nav>.active>a:hover {
     /*background:#1b1f29;*/
     /*color:#fff;*/
     background: #ffffff;
-    color: #ef7674;
+    color: #428bca;
 }
 
 
@@ -575,7 +575,7 @@ header {
 }
 
 .prevY {
-    background-color: #ef7674;
+    background-color: #428bca;
 }
 
 .afterY {
@@ -686,7 +686,7 @@ header {
 
 .refBoxcon h3 a {
     /*text-decoration: underline;*/
-    color: #ef7674;
+    color: #428bca;
 }
 
 .refBox {
