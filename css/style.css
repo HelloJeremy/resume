@@ -603,6 +603,13 @@ header {
     line-height: 27px;
 }
 
+.exCon ul {
+    color: #897f8a;
+    font-size: 15px;
+    line-height: 27px;
+    font-weight: 400;
+}
+
 .exCon h4 {
     color: #5b4c5c;
     padding-bottom: 1px;
